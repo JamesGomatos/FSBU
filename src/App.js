@@ -1,25 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Logon from './screens/Logon';
+import Score from './screens/Score';
+import Home from './screens/Home';
+import { TokenContext } from "./contexts/TokenContext";
 
 function App() {
+  const [state, setState] = useContext(TokenContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Logon" component={Logon} />
+          <Route exact path="/Score" component={Score} />
+        </Switch>
+    </Router>
   );
 }
 
