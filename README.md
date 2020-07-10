@@ -17,6 +17,8 @@ Which you can get here: https://git-scm.com/book/en/v2/Getting-Started-Installin
 ## Creating a new directory or folder where you want the file to be downloaded:
 Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
 ### Example: `cd C/Users/Jagoma/Desktop/FSBU`
+This above command is just an example and will not work for you. Call me if you need help and I can 
+walk you through working the command prompt.
 
 ## cloning the repo
 using the command shown below should automatically download the files into the directory you created:
