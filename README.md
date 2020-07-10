@@ -15,10 +15,11 @@ Which you can get here: https://git-scm.com/book/en/v2/Getting-Started-Installin
 ## After you have all these pieces of software you can now download and run the web app by:
 
 ## Creating a new directory or folder where you want the file to be downloaded:
-### Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
+Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
 ### Example: `cd C/Users/Jagoma/Desktop/FSBU`
 
-## cloning the repo using the command shown below should download the files into the directory you created:
+## cloning the repo
+using the command shown below should automatically download the files into the directory you created:
 ### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
 
 ## Now you have to download the dependencies I used to create the project.
