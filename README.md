@@ -11,9 +11,9 @@ Which you can get here https://nodejs.org/en/
 ### Yarn 
 Which you can get here https://classic.yarnpkg.com/en/docs/install/#windows-stable
 
-### After you have both these pieces of software you can ran the webapp by:
+## After you have both these pieces of software you can ran the webapp by:
 
-## `yarn install`
+### `yarn install`
 
 ### `yarn start`
 
