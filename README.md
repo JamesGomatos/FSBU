@@ -8,14 +8,14 @@ Which you can get here: https://nodejs.org/en/
 Which you can get here: https://classic.yarnpkg.com/en/docs/install/#windows-stable
 
 ## Git
-Which you cna get here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+Which you can get here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-## Note: You may need to create an account on this website ---> Github.com
+## Note: You may also need to create an account on this website ---> Github.com
 
-## After you have all these pieces of software you can now download and run the webapp by:
+## After you have all these pieces of software you can now download and run the web app by:
 
-##Creating a new directory or folder where you want the file to be downloaded:
-Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
+## Creating a new directory or folder where you want the file to be downloaded:
+### Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
 ### Example: `cd C/Users/Jagoma/Desktop/FSBU`
 
 ## cloning the repo using the command shown below should download the files into the directory you created:
