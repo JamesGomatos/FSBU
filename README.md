@@ -64,9 +64,6 @@ Navigate to the folder using the command line or command prompt in windows (aka 
 This above command is just an example and will not work for you. Contact me if you need help and I can 
 walk you through working the command prompt.
 
-## cloning the repo
-using the command shown below should automatically download the files into the directory you created:
-### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
 
 ## Download Dependencies
 You should now see the project was downloaded into the folder you created. 
