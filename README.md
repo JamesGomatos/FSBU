@@ -51,7 +51,7 @@ Navigate to the folder using the command line or command prompt in windows (aka 
 This above command is just an example and will not work for you. Contact me if you need help and I can 
 walk you through working the command prompt.
 
-## cloning the repo
+## Step 4: cloning the repo
 using the command shown below should automatically download the files into the directory you created:
 ### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
 #### Note: You may also need to create an account on this website ---> Github.com
@@ -65,7 +65,7 @@ This above command is just an example and will not work for you. Contact me if y
 walk you through working the command prompt.
 
 
-## Download Dependencies
+## Step 5: Download Dependencies
 You should now see the project was downloaded into the folder you created. 
 Use the `cd` command in your command prompt to change into the directory that was created.
 
@@ -75,7 +75,7 @@ If you type the command ls you should see a package.json file listed
 ## Now you have to download the dependencies I used to create the project in the command prompt.
 #### Run this command: `yarn install`
 
-## Start the Project
+## Step 6: Start the Project
 #### Run this command: `yarn start`
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
