@@ -24,9 +24,9 @@ Use the `cd` command in your command prompt to change into the directory that wa
 ### Run this command: `docker build . `
 In the command line you should see the following output: Successfully built <container-id>
 
-### Run this command if you are on Mac or linux: docker run -it -p 3000:3000 <container-id>
+### Run this command if you are on Mac or linux: `docker run -it -p 3000:3000 <container-id>`
 
-### Run this command if windows or gitbash: winpty docker run -it -p 3000:3000 <container-id>
+### Run this command if windows or gitbash: winpty `docker run -it -p 3000:3000 <container-id>`
 
 ## cloning the repo
 using the command shown below should automatically download the files into the directory you created:
