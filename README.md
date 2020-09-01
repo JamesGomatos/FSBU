@@ -1,4 +1,4 @@
-## How to get it working?:
+# How to get it working?:
 There are two ways to run this app. The first option is to use docker. The second option requires manually downloading the dependencies.
 
 
@@ -18,15 +18,15 @@ walk you through working the command prompt.
 using the command shown below should automatically download the files into the directory you created:
 ### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
 
-## Download Dependencies
+## Step 3: Download Dependencies
 You should now see the project was downloaded into the folder you created. 
 Use the `cd` command in your command prompt to change into the directory that was created.
+### Run this command: `docker buiild . `
+In the command line you should see Successfully built <container-id>
 
-## Creating a new directory or folder where you want the file to be downloaded:
-Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
-### Example: `cd C/Users/Jagoma/Desktop/FSBU`
-This above command is just an example and will not work for you. Contact me if you need help and I can 
-walk you through working the command prompt.
+### Run this command if you are on Mac or linux: docker run -it -p 3000:3000 <container-id>
+
+### Run this command if windows or gitbash: winpty docker run -it -p 3000:3000 <container-id>
 
 ## cloning the repo
 using the command shown below should automatically download the files into the directory you created:
