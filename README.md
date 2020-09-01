@@ -8,19 +8,22 @@ There are two ways to run this app. The first option is to use docker. The secon
 download docker desktop from this url: https://www.docker.com/products/docker-desktop
 
 
-## Step: 2 Creating a new directory or folder where you want the files to be downloaded:
+## Step 2: Creating a new directory or folder where you want the files to be downloaded:
 Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
 ### Example: `cd C/Users/Jagoma/Desktop/FSBU`
 This above command is just an example and will not work for you. Call me if you need help and I can 
 walk you through working the command prompt.
 
-## cloning the repo
+
+## Step 3: cloning the repo
 using the command shown below should automatically download the files into the directory you created:
 ### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
 
-## Step 3: Build and run dockerfile
+
+## Step 4: Build and run dockerfile
 You should now see the project was downloaded into the folder you created. 
 Use the `cd` command in your command prompt to change into the directory that was created.
+
 ### Run this command: `docker build . `
 In the command line you should see the following output: Successfully built <container-id>
 
@@ -28,11 +31,12 @@ In the command line you should see the following output: Successfully built <con
 
 ### Run this command if windows or gitbash: `winpty docker run -it -p 3000:3000 <container-id>`
 
-## Step 4: Navigate to Webpage
-Navigate to the following URL in your web browser: localhost:3000
+## Step 5: Navigate to Webpage
+Navigate to the following URL in your web browser: http://localhost:3000
 
 
 # Second Option: Manually Install Dependecies 
+
 ## Step 1: Install Node 
 Which you can get here: https://nodejs.org/en/
 
