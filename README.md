@@ -1,15 +1,55 @@
 ## How to get it working?:
-To run this app your going to need a couple of different pieces of software
+There are two ways to run this app. The first option is to use docker. The second option requires manually downloading the dependencies.
 
-## Node 
+
+# First Option: Docker 
+
+## Step:1 Install Docker Desktop
+download docker desktop from this url: https://www.docker.com/products/docker-desktop
+
+
+## Step: 2 Creating a new directory or folder where you want the files to be downloaded:
+Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
+### Example: `cd C/Users/Jagoma/Desktop/FSBU`
+This above command is just an example and will not work for you. Call me if you need help and I can 
+walk you through working the command prompt.
+
+## cloning the repo
+using the command shown below should automatically download the files into the directory you created:
+### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
+
+## Download Dependencies
+You should now see the project was downloaded into the folder you created. 
+Use the `cd` command in your command prompt to change into the directory that was created.
+
+## Creating a new directory or folder where you want the file to be downloaded:
+Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
+### Example: `cd C/Users/Jagoma/Desktop/FSBU`
+This above command is just an example and will not work for you. Contact me if you need help and I can 
+walk you through working the command prompt.
+
+## cloning the repo
+using the command shown below should automatically download the files into the directory you created:
+### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
+
+## Second Option: Manually Install Dependecies 
+## Step 1: Install Node 
 Which you can get here: https://nodejs.org/en/
 
-## Yarn 
+## Step 2: Install Yarn 
 Which you can get here: https://classic.yarnpkg.com/en/docs/install/#windows-stable
 
-## Git
+## Step 3: Install Git
 Which you can get here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+## Creating a new directory or folder where you want the file to be downloaded:
+Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
+### Example: `cd C/Users/Jagoma/Desktop/FSBU`
+This above command is just an example and will not work for you. Contact me if you need help and I can 
+walk you through working the command prompt.
 
+## cloning the repo
+using the command shown below should automatically download the files into the directory you created:
+### Run this command: `git clone https://github.com/JamesGomatos/FSBU.git`
 #### Note: You may also need to create an account on this website ---> Github.com
 
 # After you have all these pieces of software you can now download and run the web app by:
@@ -17,7 +57,7 @@ Which you can get here: https://git-scm.com/book/en/v2/Getting-Started-Installin
 ## Creating a new directory or folder where you want the file to be downloaded:
 Navigate to the folder using the command line or command prompt in windows (aka use the cd command)
 ### Example: `cd C/Users/Jagoma/Desktop/FSBU`
-This above command is just an example and will not work for you. Call me if you need help and I can 
+This above command is just an example and will not work for you. Contact me if you need help and I can 
 walk you through working the command prompt.
 
 ## cloning the repo
