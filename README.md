@@ -4,7 +4,7 @@ There are two ways to run this app. The first option is to use docker. The secon
 
 # First Option: Docker 
 
-## Step:1 Install Docker Desktop
+## Step 1: Install Docker Desktop
 download docker desktop from this url: https://www.docker.com/products/docker-desktop
 
 
