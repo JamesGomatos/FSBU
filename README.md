@@ -28,8 +28,11 @@ In the command line you should see the following output: Successfully built <con
 
 ### Run this command if windows or gitbash: `winpty docker run -it -p 3000:3000 <container-id>`
 
+## Step 4: Navigate to Webpage
+Navigate to the following URL in your web browser: localhost:3000
 
-## Second Option: Manually Install Dependecies 
+
+# Second Option: Manually Install Dependecies 
 ## Step 1: Install Node 
 Which you can get here: https://nodejs.org/en/
 
