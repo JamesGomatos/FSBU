@@ -22,7 +22,7 @@ using the command shown below should automatically download the files into the d
 You should now see the project was downloaded into the folder you created. 
 Use the `cd` command in your command prompt to change into the directory that was created.
 ### Run this command: `docker build . `
-In the command line you should see Successfully built <container-id>
+In the command line you should see the following output: Successfully built <container-id>
 
 ### Run this command if you are on Mac or linux: docker run -it -p 3000:3000 <container-id>
 
