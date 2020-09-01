@@ -72,7 +72,7 @@ function Result() {
 
   const tiers = [
     {
-      title: "Macroeconomic Adjusted Credit Limit",
+      title: "Suggested Macroeconomic Adjusted Credit Limit",
       price: '$' + parseInt(state.meAdjCreditLimit),
     },
     {
@@ -81,11 +81,11 @@ function Result() {
     },
     {
       title: "Suggested APR",
-      price: parseFloat(state.suggestedAPR).toFixed(4) + '%',
+      price: parseFloat(state.suggestedAPR * 100).toFixed(4) + '%',
     },
     {
-      title: "Macroeconomic Adjusted Suggested APR",
-      price: parseFloat(state.meSuggestedAPR).toFixed(4) + '%',
+      title: "Suggested Macroeconomic Adjusted APR",
+      price: parseFloat(state.meSuggestedAPR * 100).toFixed(4) + '%',
     }
   ];
 
@@ -109,7 +109,8 @@ function Result() {
           component="p"
         >
           Quickly score and embed your model using SAS to create a credit table for
-          your potential customers
+          your potential customers. The model made adjustments based on the current unemployment
+          rate of <strong>{parseFloat(state.unemploymentRate * 100).toFixed(1) + '%'}</strong>
         </Typography>
       </Container>
       {/* End hero unit */}

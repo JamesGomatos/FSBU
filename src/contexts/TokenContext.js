@@ -8,7 +8,8 @@ const TokenContextProvider = (props) => {
         meAdjCreditLimit: null,
         meSuggestedAPR: null,
         suggestedAPR: null,
-        suggestedCreditLimit: null
+        suggestedCreditLimit: null,
+        unemploymentRate: null
     })
 
     return (

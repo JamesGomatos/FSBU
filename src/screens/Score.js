@@ -84,7 +84,6 @@ function Score() {
   const [creditScore, setCreditScore] = useState("");
   const [dti, setDti] = useState("");
   const [householdIncome, setHousehouseIncome] = useState("");
-  const [unemploymentRate, setUnemploymentRate] = useState("");
   const [activeStep, setActiveStep] = useState(0);
   const [scoreResult, setScoreResult] = useState({});
 
@@ -107,9 +106,7 @@ function Score() {
       setDti(e.target.value);
     } else if (e.target.name === "householdIncome") {
       setHousehouseIncome(e.target.value);
-    } else if (e.target.name === "unemploymentRate") {
-      setUnemploymentRate(e.target.value);
-    }
+    } 
   };
 
   const handleSubmit = async (e) => {
@@ -130,12 +127,7 @@ function Score() {
           name: "householdincome",
           type: "decimal",
           value: parseFloat(householdIncome),
-        },
-        {
-          name: "unemploymentrate",
-          type: "decimal",
-          value: parseFloat(unemploymentRate),
-        },
+        }
       ],
     };
     const inputData = JSON.stringify(requestJSON);
@@ -143,7 +135,7 @@ function Score() {
       const result = await axios({
         method: "post",
         url:
-          "http://magnus.unx.sas.com/microanalyticScore/modules/idsbj/steps/execute",
+          "http://magnus.unx.sas.com/microanalyticScore/modules/sbjpython/steps/execute",
         data: inputData,
         headers: {
           "Content-Type": "application/json",
@@ -153,10 +145,11 @@ function Score() {
       console.log(result);
       setState((state) => ({
         ...state,
-        meAdjCreditLimit: result.data.outputs[21].value,
-        meSuggestedAPR: result.data.outputs[22].value,
-        suggestedAPR: result.data.outputs[23].value,
-        suggestedCreditLimit: result.data.outputs[24].value
+        meAdjCreditLimit: result.data.outputs[24].value,
+        meSuggestedAPR: result.data.outputs[25].value,
+        suggestedAPR: result.data.outputs[26].value,
+        suggestedCreditLimit: result.data.outputs[27].value,
+        unemploymentRate: result.data.outputs[28].value
       }));
       handleNext();
     } catch (e) {
@@ -212,18 +205,7 @@ function Score() {
                     value={householdIncome}
                     color="secondary"
                   />
-                </Grid>
-                <Grid item xs={12}>
-                  <TextField
-                    required
-                    id="unemploymentRate"
-                    name="unemploymentRate"
-                    label="Unemployment Rate"
-                    fullWidth
-                    onChange={handleChange}
-                    value={unemploymentRate}
-                    color="secondary"
-                  />
+      
                 </Grid>
               </Grid>
           </React.Fragment>
